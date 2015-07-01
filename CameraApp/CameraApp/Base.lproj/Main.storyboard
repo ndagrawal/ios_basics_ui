@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r4k-41-k1v">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="485"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooO-EQ-mEr">
+                                <rect key="frame" x="236" y="544" width="129" height="30"/>
+                                <color key="backgroundColor" red="0.38405275430000002" green="0.47815880570000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iUm-FX-IKg"/>
+                                    <constraint firstAttribute="height" constant="30" id="u43-nC-Akd"/>
+                                </constraints>
+                                <state key="normal" title="Share Photo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="u43-nC-Akd"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="selectPicture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zXp-gI-9cW"/>
+                                    <action selector="takePicture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vBY-WA-LYE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhh-bG-QsO">
+                                <rect key="frame" x="236" y="506" width="129" height="30"/>
+                                <color key="backgroundColor" red="0.38405275430000002" green="0.47815880570000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5m5-pq-PgC"/>
+                                    <constraint firstAttribute="height" constant="30" id="Tza-WH-Bhh"/>
+                                </constraints>
+                                <state key="normal" title="Take Photo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5m5-pq-PgC"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="takePicture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XHX-N7-bfb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Yhh-bG-QsO" firstAttribute="centerX" secondItem="ooO-EQ-mEr" secondAttribute="centerX" id="0Qd-uv-03b"/>
+                            <constraint firstItem="r4k-41-k1v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0tA-nP-35x"/>
+                            <constraint firstItem="Yhh-bG-QsO" firstAttribute="centerX" secondItem="r4k-41-k1v" secondAttribute="centerX" constant="0.5" id="5o3-r1-mkJ"/>
+                            <constraint firstAttribute="centerX" secondItem="r4k-41-k1v" secondAttribute="centerX" constant="21" id="6Oh-if-yAB"/>
+                            <constraint firstItem="r4k-41-k1v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="DB3-kC-ydQ"/>
+                            <constraint firstItem="Yhh-bG-QsO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3" id="HU2-fa-rKT"/>
+                            <constraint firstItem="Yhh-bG-QsO" firstAttribute="top" secondItem="r4k-41-k1v" secondAttribute="bottom" constant="30" id="Sfe-CP-gb3"/>
+                            <constraint firstItem="r4k-41-k1v" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="TjR-zP-ucp"/>
+                            <constraint firstItem="r4k-41-k1v" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.8" id="VEK-9A-r2x"/>
+                            <constraint firstAttribute="trailing" secondItem="r4k-41-k1v" secondAttribute="trailing" id="XWV-hc-cUM"/>
+                            <constraint firstItem="r4k-41-k1v" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="dE5-vV-85G"/>
+                            <constraint firstItem="Yhh-bG-QsO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3" id="id9-Jf-PnG"/>
+                            <constraint firstItem="Yhh-bG-QsO" firstAttribute="centerX" secondItem="r4k-41-k1v" secondAttribute="centerX" constant="6" id="l1s-SS-nz0"/>
+                            <constraint firstItem="r4k-41-k1v" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="mXm-Mh-iYT"/>
+                            <constraint firstItem="ooO-EQ-mEr" firstAttribute="top" secondItem="Yhh-bG-QsO" secondAttribute="bottom" constant="8" id="mnT-0m-Utc"/>
+                            <constraint firstItem="Yhh-bG-QsO" firstAttribute="top" secondItem="r4k-41-k1v" secondAttribute="bottom" constant="21" id="ozg-ma-6DA"/>
+                            <constraint firstItem="Yhh-bG-QsO" firstAttribute="width" secondItem="ooO-EQ-mEr" secondAttribute="width" id="qx0-qj-mok"/>
+                            <constraint firstItem="r4k-41-k1v" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="t7q-3r-hb0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6Oh-if-yAB"/>
+                                <exclude reference="DB3-kC-ydQ"/>
+                                <exclude reference="dE5-vV-85G"/>
+                                <exclude reference="mXm-Mh-iYT"/>
+                                <exclude reference="HU2-fa-rKT"/>
+                                <exclude reference="Sfe-CP-gb3"/>
+                                <exclude reference="l1s-SS-nz0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="r4k-41-k1v" id="7CQ-Lj-10l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
