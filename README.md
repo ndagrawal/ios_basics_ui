@@ -42,3 +42,14 @@ b. Get the iOS Image from the gallery.
 c. UIImagePickerControllerDelegate -- and some methods associated with it.  
 
 ================================================================================================================
+**3. SearchBarCollectionView Demo :**   
+This is objective C project it displays how to add search bar in the collection view + how to add subviews to navigation bar.
+
+_Things learnt from the project :_  
+a. How to add UISearchBar in the collectionview (avoiding the searchbar controller).    
+b. How to use cancel button inside the searchbar instead of outside it.    
+c. Change the look(color - background - tint) of the search bar.  
+d. How to add custom views from the .xib file through code (initWithFrame)    
+    
+================================================================================================================
+
