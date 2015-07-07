@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C430D42C1B4B627F0027DCBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D42B1B4B627F0027DCBF /* main.m */; };
-		C430D42F1B4B627F0027DCBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D42E1B4B627F0027DCBF /* AppDelegate.m */; };
-		C430D4321B4B627F0027DCBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D4311B4B627F0027DCBF /* ViewController.m */; };
-		C430D4351B4B627F0027DCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C430D4331B4B627F0027DCBF /* Main.storyboard */; };
-		C430D4371B4B627F0027DCBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C430D4361B4B627F0027DCBF /* Images.xcassets */; };
-		C430D43A1B4B627F0027DCBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C430D4381B4B627F0027DCBF /* LaunchScreen.xib */; };
 		C430D4461B4B627F0027DCBF /* ViewHierarchyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D4451B4B627F0027DCBF /* ViewHierarchyDemoTests.m */; };
 		C430D4501B4B89350027DCBF /* button.xib in Resources */ = {isa = PBXBuildFile; fileRef = C430D44F1B4B89350027DCBF /* button.xib */; };
-		C430D4521B4B8FAC0027DCBF /* camera_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C430D4511B4B8FAC0027DCBF /* camera_1.png */; };
-		C430D4551B4B8FF30027DCBF /* CameraButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D4541B4B8FF30027DCBF /* CameraButtonView.m */; };
+		C4A1914C1B4C87350029B542 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A1913E1B4C87350029B542 /* AppDelegate.m */; };
+		C4A1914D1B4C87350029B542 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A191401B4C87350029B542 /* LaunchScreen.xib */; };
+		C4A1914E1B4C87350029B542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A191421B4C87350029B542 /* Main.storyboard */; };
+		C4A1914F1B4C87350029B542 /* camera_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A191441B4C87350029B542 /* camera_1.png */; };
+		C4A191501B4C87350029B542 /* CameraButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A191461B4C87350029B542 /* CameraButtonView.m */; };
+		C4A191511B4C87350029B542 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A191471B4C87350029B542 /* Images.xcassets */; };
+		C4A191521B4C87350029B542 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4A191481B4C87350029B542 /* Info.plist */; };
+		C4A191531B4C87350029B542 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A191491B4C87350029B542 /* main.m */; };
+		C4A191541B4C87350029B542 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A1914B1B4C87350029B542 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +32,22 @@
 
 /* Begin PBXFileReference section */
 		C430D4261B4B627F0027DCBF /* SearchbarCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchbarCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C430D42A1B4B627F0027DCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C430D42B1B4B627F0027DCBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C430D42D1B4B627F0027DCBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C430D42E1B4B627F0027DCBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C430D4301B4B627F0027DCBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C430D4311B4B627F0027DCBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C430D4341B4B627F0027DCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C430D4361B4B627F0027DCBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C430D4391B4B627F0027DCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C430D43F1B4B627F0027DCBF /* SearchbarCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchbarCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C430D4441B4B627F0027DCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C430D4451B4B627F0027DCBF /* ViewHierarchyDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewHierarchyDemoTests.m; sourceTree = "<group>"; };
 		C430D44F1B4B89350027DCBF /* button.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = button.xib; sourceTree = "<group>"; };
-		C430D4511B4B8FAC0027DCBF /* camera_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_1.png; sourceTree = "<group>"; };
-		C430D4531B4B8FF30027DCBF /* CameraButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraButtonView.h; sourceTree = "<group>"; };
-		C430D4541B4B8FF30027DCBF /* CameraButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraButtonView.m; sourceTree = "<group>"; };
+		C4A1913D1B4C87350029B542 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SearchBarCollectionView/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		C4A1913E1B4C87350029B542 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SearchBarCollectionView/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		C4A191411B4C87350029B542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		C4A191431B4C87350029B542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		C4A191441B4C87350029B542 /* camera_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera_1.png; path = SearchBarCollectionView/camera_1.png; sourceTree = SOURCE_ROOT; };
+		C4A191451B4C87350029B542 /* CameraButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraButtonView.h; path = SearchBarCollectionView/CameraButtonView.h; sourceTree = SOURCE_ROOT; };
+		C4A191461B4C87350029B542 /* CameraButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraButtonView.m; path = SearchBarCollectionView/CameraButtonView.m; sourceTree = SOURCE_ROOT; };
+		C4A191471B4C87350029B542 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SearchBarCollectionView/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		C4A191481B4C87350029B542 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SearchBarCollectionView/Info.plist; sourceTree = SOURCE_ROOT; };
+		C4A191491B4C87350029B542 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SearchBarCollectionView/main.m; sourceTree = SOURCE_ROOT; };
+		C4A1914A1B4C87350029B542 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = SearchBarCollectionView/ViewController.h; sourceTree = SOURCE_ROOT; };
+		C4A1914B1B4C87350029B542 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = SearchBarCollectionView/ViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,29 +90,20 @@
 		C430D4281B4B627F0027DCBF /* SearchbarCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				C430D42D1B4B627F0027DCBF /* AppDelegate.h */,
-				C430D42E1B4B627F0027DCBF /* AppDelegate.m */,
-				C430D4301B4B627F0027DCBF /* ViewController.h */,
-				C430D4311B4B627F0027DCBF /* ViewController.m */,
-				C430D4331B4B627F0027DCBF /* Main.storyboard */,
-				C430D4511B4B8FAC0027DCBF /* camera_1.png */,
-				C430D4361B4B627F0027DCBF /* Images.xcassets */,
-				C430D4381B4B627F0027DCBF /* LaunchScreen.xib */,
-				C430D4291B4B627F0027DCBF /* Supporting Files */,
-				C430D4531B4B8FF30027DCBF /* CameraButtonView.h */,
-				C430D4541B4B8FF30027DCBF /* CameraButtonView.m */,
+				C4A1913D1B4C87350029B542 /* AppDelegate.h */,
+				C4A1913E1B4C87350029B542 /* AppDelegate.m */,
+				C4A1913F1B4C87350029B542 /* Base.lproj */,
+				C4A191441B4C87350029B542 /* camera_1.png */,
+				C4A191451B4C87350029B542 /* CameraButtonView.h */,
+				C4A191461B4C87350029B542 /* CameraButtonView.m */,
+				C4A191471B4C87350029B542 /* Images.xcassets */,
+				C4A191481B4C87350029B542 /* Info.plist */,
+				C4A191491B4C87350029B542 /* main.m */,
+				C4A1914A1B4C87350029B542 /* ViewController.h */,
+				C4A1914B1B4C87350029B542 /* ViewController.m */,
 			);
 			name = SearchbarCollectionView;
 			path = ViewHierarchyDemo;
-			sourceTree = "<group>";
-		};
-		C430D4291B4B627F0027DCBF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C430D42A1B4B627F0027DCBF /* Info.plist */,
-				C430D42B1B4B627F0027DCBF /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		C430D4421B4B627F0027DCBF /* ViewHierarchyDemoTests */ = {
@@ -130,6 +122,16 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		C4A1913F1B4C87350029B542 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C4A191401B4C87350029B542 /* LaunchScreen.xib */,
+				C4A191421B4C87350029B542 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = SearchBarCollectionView/Base.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -211,10 +213,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C430D4351B4B627F0027DCBF /* Main.storyboard in Resources */,
-				C430D4521B4B8FAC0027DCBF /* camera_1.png in Resources */,
-				C430D43A1B4B627F0027DCBF /* LaunchScreen.xib in Resources */,
-				C430D4371B4B627F0027DCBF /* Images.xcassets in Resources */,
+				C4A1914F1B4C87350029B542 /* camera_1.png in Resources */,
+				C4A191511B4C87350029B542 /* Images.xcassets in Resources */,
+				C4A191521B4C87350029B542 /* Info.plist in Resources */,
+				C4A1914E1B4C87350029B542 /* Main.storyboard in Resources */,
+				C4A1914D1B4C87350029B542 /* LaunchScreen.xib in Resources */,
 				C430D4501B4B89350027DCBF /* button.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,10 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C430D4321B4B627F0027DCBF /* ViewController.m in Sources */,
-				C430D4551B4B8FF30027DCBF /* CameraButtonView.m in Sources */,
-				C430D42F1B4B627F0027DCBF /* AppDelegate.m in Sources */,
-				C430D42C1B4B627F0027DCBF /* main.m in Sources */,
+				C4A1914C1B4C87350029B542 /* AppDelegate.m in Sources */,
+				C4A191531B4C87350029B542 /* main.m in Sources */,
+				C4A191541B4C87350029B542 /* ViewController.m in Sources */,
+				C4A191501B4C87350029B542 /* CameraButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,20 +262,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C430D4331B4B627F0027DCBF /* Main.storyboard */ = {
+		C4A191401B4C87350029B542 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C430D4341B4B627F0027DCBF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C430D4381B4B627F0027DCBF /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C430D4391B4B627F0027DCBF /* Base */,
+				C4A191411B4C87350029B542 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C4A191421B4C87350029B542 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A191431B4C87350029B542 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -14,7 +14,7 @@
 		<string>https://github.com/ndagrawal/ios_basics_ui.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ViewHierarchyDemo/SearchbarCollectionView.xcodeproj</string>
+	<string>SearchBarCollecitonView/SearchbarCollectionView.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>809D4603770060FEAA89115EF49BAEDF628DCEDC</key>
