@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>486A15D1-2AF2-4190-94BC-55E05F96A688</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ViewHierarchyDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>809D4603770060FEAA89115EF49BAEDF628DCEDC</key>
 		<string>https://github.com/ndagrawal/ios_basics_ui.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ViewHierarchyDemo/ViewHierarchyDemo.xcodeproj/project.xcworkspace</string>
+	<string>ViewHierarchyDemo/ViewHierarchyDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>809D4603770060FEAA89115EF49BAEDF628DCEDC</key>

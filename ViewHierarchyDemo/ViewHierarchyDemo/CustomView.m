@@ -10,20 +10,22 @@
 
 @implementation CustomView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
-
 /* Use this method when you need to load your subview through program */
-
 -(id)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if(self){
+        //1.Load the view from the nib file
+        [[NSBundle mainBundle] loadNibNamed:@"CustomView" owner:self options:nil];
         
+        //2.Adjust bounds.
+        NSLog(@"frame = %@",NSStringFromCGRect(self.sampleview.frame));
+        NSLog(@"bounds = %@",NSStringFromCGRect(self.sampleview.bounds));
+        
+        //So that it loads the same bounds as the .xib frame.
+        self.bounds = self.sampleview.bounds;
+        
+        //3.Add those view to superview
+        [self addSubview:self.sampleview];
     }
     return self;
 }
@@ -45,6 +47,5 @@
 -(IBAction)buttonClicked:(id)sender{
     [self.delegate buttonISClicked];
 }
-
 
 @end

@@ -20,10 +20,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //Line reuired while adding through the storyboard
     _customView  = [[CustomView alloc] init];
     
+    //Line required while adding through storyboard and program
+    _customView.center = CGPointMake(200, 300);
+    _customView.delegate =self;
     
-    
+    [self.view addSubview:_customView];
 }
 
 - (void)didReceiveMemoryWarning {
