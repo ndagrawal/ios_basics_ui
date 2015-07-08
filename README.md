@@ -62,3 +62,11 @@ b. To do : how to add constraints through auto layout,
 c. How to add view through code.  
     
 ================================================================================================================
+**6. UIViewClass : **
+This is Objective C project it demos how to add views on UIwindow, basically understanding concepts of frame,bounds,uiwindow,CGContextRef
+
+_Things learnt from the project :_
+a. How to add views on windows.   
+
+================================================================================================================
+
