@@ -42,7 +42,7 @@ b. Get the iOS Image from the gallery.
 c. UIImagePickerControllerDelegate -- and some methods associated with it.  
 
 ================================================================================================================
-**3. SearchBarCollectionView Demo :**   
+**4. SearchBarCollectionView Demo :**   
 This is objective C project it displays how to add search bar in the collection view + how to add subviews to navigation bar.
 
 _Things learnt from the project :_  
@@ -53,12 +53,12 @@ d. How to add custom views from the .xib file through code (initWithFrame)
     
 ================================================================================================================
 
-**3. ViewHierarchyDemo :**   
+**5. ViewHierarchyDemo :**   
 This is objective C project it displays how to add/(Reuse a view) subview through storyboard + program + and apply constraints to them.
 
 _Things learnt from the project :_  
 a. How to add subview (Reuse a view) through storyboard        
 b. To do : how to add constraints through auto layout,   
-c. To do : how to add view through code.  
+c. How to add view through code.  
     
 ================================================================================================================
