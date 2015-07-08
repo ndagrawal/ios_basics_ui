@@ -53,3 +53,12 @@ d. How to add custom views from the .xib file through code (initWithFrame)
     
 ================================================================================================================
 
+**3. ViewHierarchyDemo :**   
+This is objective C project it displays how to add/(Reuse a view) subview through storyboard + program + and apply constraints to them.
+
+_Things learnt from the project :_  
+a. How to add subview (Reuse a view) through storyboard        
+b. To do : how to add constraints through auto layout,   
+c. To do : how to add view through code.  
+    
+================================================================================================================
