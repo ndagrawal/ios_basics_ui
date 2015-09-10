@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0AA390F925AAEC6E0CF2063 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E68A2F1145AA545946C04E57 /* libPods.a */; };
+		C419FF4C1BA153D6003EB4BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C419FF3B1BA153D6003EB4BC /* AppDelegate.m */; };
+		C419FF4F1BA153D6003EB4BC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C419FF421BA153D6003EB4BC /* FirstViewController.m */; };
+		C419FF501BA153D6003EB4BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C419FF431BA153D6003EB4BC /* Images.xcassets */; };
+		C419FF521BA153D6003EB4BC /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C419FF461BA153D6003EB4BC /* LeftViewController.m */; };
+		C419FF531BA153D6003EB4BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C419FF471BA153D6003EB4BC /* main.m */; };
+		C419FF541BA153D6003EB4BC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C419FF491BA153D6003EB4BC /* MainViewController.m */; };
+		C419FF551BA153D6003EB4BC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C419FF4B1BA153D6003EB4BC /* SecondViewController.m */; };
+		C419FF561BA15425003EB4BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C419FF3F1BA153D6003EB4BC /* Main.storyboard */; };
+		C419FF571BA15427003EB4BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C419FF3D1BA153D6003EB4BC /* LaunchScreen.xib */; };
+		C419FF581BA1542E003EB4BC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C419FF441BA153D6003EB4BC /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94BFF9476E77FC9FE5C11ACF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9D60317D647E6BB1C7F160F0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C40607981B6E781000CEFC97 /* NavigationDrawerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationDrawerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40607B91B6E781100CEFC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40607BA1B6E781100CEFC97 /* SampleTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTabBarTests.m; sourceTree = "<group>"; };
+		C419FF3A1BA153D6003EB4BC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NavigationDraweriOS/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		C419FF3B1BA153D6003EB4BC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NavigationDraweriOS/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		C419FF3E1BA153D6003EB4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		C419FF401BA153D6003EB4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		C419FF411BA153D6003EB4BC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = NavigationDraweriOS/FirstViewController.h; sourceTree = SOURCE_ROOT; };
+		C419FF421BA153D6003EB4BC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = NavigationDraweriOS/FirstViewController.m; sourceTree = SOURCE_ROOT; };
+		C419FF431BA153D6003EB4BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NavigationDraweriOS/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		C419FF441BA153D6003EB4BC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NavigationDraweriOS/Info.plist; sourceTree = SOURCE_ROOT; };
+		C419FF451BA153D6003EB4BC /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = NavigationDraweriOS/LeftViewController.h; sourceTree = SOURCE_ROOT; };
+		C419FF461BA153D6003EB4BC /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = NavigationDraweriOS/LeftViewController.m; sourceTree = SOURCE_ROOT; };
+		C419FF471BA153D6003EB4BC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NavigationDraweriOS/main.m; sourceTree = SOURCE_ROOT; };
+		C419FF481BA153D6003EB4BC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = NavigationDraweriOS/MainViewController.h; sourceTree = SOURCE_ROOT; };
+		C419FF491BA153D6003EB4BC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = NavigationDraweriOS/MainViewController.m; sourceTree = SOURCE_ROOT; };
+		C419FF4A1BA153D6003EB4BC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = NavigationDraweriOS/SecondViewController.h; sourceTree = SOURCE_ROOT; };
+		C419FF4B1BA153D6003EB4BC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = NavigationDraweriOS/SecondViewController.m; sourceTree = SOURCE_ROOT; };
+		E68A2F1145AA545946C04E57 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40607951B6E781000CEFC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AA390F925AAEC6E0CF2063 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF1FACAB8246582DD5DF1FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E68A2F1145AA545946C04E57 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B9933A49182E05E30A1D24D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94BFF9476E77FC9FE5C11ACF /* Pods.debug.xcconfig */,
+				9D60317D647E6BB1C7F160F0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C406078F1B6E781000CEFC97 = {
+			isa = PBXGroup;
+			children = (
+				C406079A1B6E781000CEFC97 /* NavigationDrawerIOS */,
+				C40607B71B6E781100CEFC97 /* SampleTabBarTests */,
+				C40607991B6E781000CEFC97 /* Products */,
+				6B9933A49182E05E30A1D24D /* Pods */,
+				3DF1FACAB8246582DD5DF1FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C40607991B6E781000CEFC97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40607981B6E781000CEFC97 /* NavigationDrawerIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C406079A1B6E781000CEFC97 /* NavigationDrawerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				C419FF3A1BA153D6003EB4BC /* AppDelegate.h */,
+				C419FF3B1BA153D6003EB4BC /* AppDelegate.m */,
+				C419FF3C1BA153D6003EB4BC /* Base.lproj */,
+				C419FF411BA153D6003EB4BC /* FirstViewController.h */,
+				C419FF421BA153D6003EB4BC /* FirstViewController.m */,
+				C419FF431BA153D6003EB4BC /* Images.xcassets */,
+				C419FF441BA153D6003EB4BC /* Info.plist */,
+				C419FF451BA153D6003EB4BC /* LeftViewController.h */,
+				C419FF461BA153D6003EB4BC /* LeftViewController.m */,
+				C419FF471BA153D6003EB4BC /* main.m */,
+				C419FF481BA153D6003EB4BC /* MainViewController.h */,
+				C419FF491BA153D6003EB4BC /* MainViewController.m */,
+				C419FF4A1BA153D6003EB4BC /* SecondViewController.h */,
+				C419FF4B1BA153D6003EB4BC /* SecondViewController.m */,
+			);
+			name = NavigationDrawerIOS;
+			path = SampleTabBar;
+			sourceTree = "<group>";
+		};
+		C40607B71B6E781100CEFC97 /* SampleTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C40607BA1B6E781100CEFC97 /* SampleTabBarTests.m */,
+				C40607B81B6E781100CEFC97 /* Supporting Files */,
+			);
+			path = SampleTabBarTests;
+			sourceTree = "<group>";
+		};
+		C40607B81B6E781100CEFC97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C40607B91B6E781100CEFC97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C419FF3C1BA153D6003EB4BC /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C419FF3D1BA153D6003EB4BC /* LaunchScreen.xib */,
+				C419FF3F1BA153D6003EB4BC /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = NavigationDraweriOS/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40607971B6E781000CEFC97 /* NavigationDrawerIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40607BE1B6E781100CEFC97 /* Build configuration list for PBXNativeTarget "NavigationDrawerIOS" */;
+			buildPhases = (
+				57A105DA1BEBD0F0C3DA2ADA /* Check Pods Manifest.lock */,
+				C40607941B6E781000CEFC97 /* Sources */,
+				C40607951B6E781000CEFC97 /* Frameworks */,
+				C40607961B6E781000CEFC97 /* Resources */,
+				F6AC61FC31BB5A0F3F1B5BD8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationDrawerIOS;
+			productName = SampleTabBar;
+			productReference = C40607981B6E781000CEFC97 /* NavigationDrawerIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40607901B6E781000CEFC97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nilesh Agrawal";
+				TargetAttributes = {
+					C40607971B6E781000CEFC97 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = C40607931B6E781000CEFC97 /* Build configuration list for PBXProject "NavigationDrawerIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C406078F1B6E781000CEFC97;
+			productRefGroup = C40607991B6E781000CEFC97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40607971B6E781000CEFC97 /* NavigationDrawerIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40607961B6E781000CEFC97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C419FF501BA153D6003EB4BC /* Images.xcassets in Resources */,
+				C419FF581BA1542E003EB4BC /* Info.plist in Resources */,
+				C419FF571BA15427003EB4BC /* LaunchScreen.xib in Resources */,
+				C419FF561BA15425003EB4BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57A105DA1BEBD0F0C3DA2ADA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6AC61FC31BB5A0F3F1B5BD8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40607941B6E781000CEFC97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C419FF551BA153D6003EB4BC /* SecondViewController.m in Sources */,
+				C419FF541BA153D6003EB4BC /* MainViewController.m in Sources */,
+				C419FF531BA153D6003EB4BC /* main.m in Sources */,
+				C419FF521BA153D6003EB4BC /* LeftViewController.m in Sources */,
+				C419FF4C1BA153D6003EB4BC /* AppDelegate.m in Sources */,
+				C419FF4F1BA153D6003EB4BC /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C419FF3D1BA153D6003EB4BC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C419FF3E1BA153D6003EB4BC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C419FF3F1BA153D6003EB4BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C419FF401BA153D6003EB4BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C40607BC1B6E781100CEFC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C40607BD1B6E781100CEFC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40607BF1B6E781100CEFC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94BFF9476E77FC9FE5C11ACF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavigationDraweriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = NavigationDrawerIOS;
+			};
+			name = Debug;
+		};
+		C40607C01B6E781100CEFC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D60317D647E6BB1C7F160F0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavigationDraweriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = NavigationDrawerIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40607931B6E781000CEFC97 /* Build configuration list for PBXProject "NavigationDrawerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40607BC1B6E781100CEFC97 /* Debug */,
+				C40607BD1B6E781100CEFC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40607BE1B6E781100CEFC97 /* Build configuration list for PBXNativeTarget "NavigationDrawerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40607BF1B6E781100CEFC97 /* Debug */,
+				C40607C01B6E781100CEFC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40607901B6E781000CEFC97 /* Project object */;
+}
