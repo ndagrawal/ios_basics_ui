@@ -69,4 +69,13 @@ _Things learnt from the project :_
 a. How to add views on windows.   
 
 ================================================================================================================
+**7. MapKitStarter : **
+This is Objective C project it demos how to use MapView, MKMapViewDelegate,Add Pins, AnnotationView,checkLocationAuthorizationStatus.
 
+_Things learnt from the project :_
+a. How to use MapView, Center the location and focus on a particular region.
+b. CheckForAuthorizationStatus. 
+c. Set the Region
+d. Use of MapItems
+e. Use of Pin Colors
+f. Parse data from Json.
